@@ -10,10 +10,10 @@ namespace ConsoleTEST
     class Program
     {
         static void Main(string[] args)
-        {           
-        
-            DAL dal = new DAL();
-            Console.WriteLine(dal.GetName());
+        {
+         Model_Network _ctx = new Model_Network();
+         DAL dal = new DAL(_ctx);
+         Console.WriteLine(dal.GetName());
         }
     }
 }
