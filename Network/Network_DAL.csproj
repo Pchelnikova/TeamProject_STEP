@@ -58,7 +58,6 @@
     <Compile Include="Concrete\User.cs" />
     <Compile Include="Concrete\CategoryService.cs" />
     <Compile Include="Concrete\CategoryThing.cs" />
-    <Compile Include="Abstract\Status.cs" />
     <Compile Include="Concrete\StatusLot.cs" />
     <Compile Include="Concrete\StatusUser.cs" />
     <Compile Include="Concrete\Transaction.cs" />

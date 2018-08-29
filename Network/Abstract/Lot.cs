@@ -12,7 +12,6 @@ namespace Network_DAL
         //EF navigation property
         public virtual Transaction Transactions { get; set; }
         public virtual Category Categories { get; set; }       
-        public virtual Status Statuses { get; set; }
         public virtual User Users { get; set; }
     }
 }

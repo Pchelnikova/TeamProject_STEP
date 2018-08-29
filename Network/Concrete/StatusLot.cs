@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Network_DAL
 {
-   public class StatusLot :Status
+   public class StatusLot
     {
-        public virtual ICollection<Lot> Lot { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        
+        public virtual ICollection<Lot> Lots { get; set; }
+
     }
 }

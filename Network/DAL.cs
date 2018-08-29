@@ -18,7 +18,7 @@ namespace Network_DAL
         public string GetName()
         {
            
-            return _ctx.Set<User>().Where(u => u.Name == "Name").ToString();
+            return _ctx.Users.Where(u => u.Name == "Name"). ToString();
         }
     }
 }

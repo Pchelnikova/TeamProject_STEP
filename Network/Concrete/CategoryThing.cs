@@ -8,6 +8,6 @@ namespace Network_DAL
 {
     public class CategoryThing : Category
     {
-        public virtual ICollection<Thing> Things { get; set; }
+        
     }
 }
